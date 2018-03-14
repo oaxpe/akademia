@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_unwBkB4MEei_GN7K0KRWHg" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_upKW0B4MEei_GN7K0KRWHg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w5rn8B4MEei_GN7K0KRWHg" memberEnd="_w5rn9h4MEei_GN7K0KRWHg _w5rn8x4MEei_GN7K0KRWHg" navigableOwnedEnd="_w5rn8x4MEei_GN7K0KRWHg _w5rn9h4MEei_GN7K0KRWHg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5rn8R4MEei_GN7K0KRWHg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w5rn8h4MEei_GN7K0KRWHg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w5rn8x4MEei_GN7K0KRWHg" name="kurtsoa" type="_w51Y9x4MEei_GN7K0KRWHg" association="_w5rn8B4MEei_GN7K0KRWHg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w5rn9B4MEei_GN7K0KRWHg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w5rn9R4MEei_GN7K0KRWHg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w5rn9h4MEei_GN7K0KRWHg" name="bezeroa" type="_w5rn-h4MEei_GN7K0KRWHg" association="_w5rn8B4MEei_GN7K0KRWHg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w5rn9x4MEei_GN7K0KRWHg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w5rn-B4MEei_GN7K0KRWHg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w5rn-R4MEei_GN7K0KRWHg" name="Kurts-Bez">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JqXTUB4NEei_GN7K0KRWHg" name="matrData" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NZ11wB4NEei_GN7K0KRWHg" name="prezioa" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w5rn-h4MEei_GN7K0KRWHg" name="Bezeroa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5rn-x4MEei_GN7K0KRWHg" name="izena" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5rn_B4MEei_GN7K0KRWHg" name="herria" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5rn_R4MEei_GN7K0KRWHg" name="helbidea" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5rn_h4MEei_GN7K0KRWHg" name="email" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5rn_x4MEei_GN7K0KRWHg" name="tlf" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roAB4MEei_GN7K0KRWHg" name="abizena" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roAR4MEei_GN7K0KRWHg" name="nan" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roAh4MEei_GN7K0KRWHg" name="kk" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_w5roAx4MEei_GN7K0KRWHg" name="Elkartea">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roBB4MEei_GN7K0KRWHg" name="izena" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roBR4MEei_GN7K0KRWHg" name="herria" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roBh4MEei_GN7K0KRWHg" name="helbidea" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roBx4MEei_GN7K0KRWHg" name="harremnetarakoDatuak" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w5roCB4MEei_GN7K0KRWHg" name="Akademia">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roCR4MEei_GN7K0KRWHg" name="izena" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roCh4MEei_GN7K0KRWHg" name="herria" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roCx4MEei_GN7K0KRWHg" name="helbidea" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roDB4MEei_GN7K0KRWHg" name="tlf" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roDR4MEei_GN7K0KRWHg" name="email" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roDh4MEei_GN7K0KRWHg" name="PK" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w5roDx4MEei_GN7K0KRWHg" name="nif" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w51Y8B4MEei_GN7K0KRWHg" memberEnd="_w51Y9B4MEei_GN7K0KRWHg _w51Y8x4MEei_GN7K0KRWHg" navigableOwnedEnd="_w51Y9B4MEei_GN7K0KRWHg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w51Y8R4MEei_GN7K0KRWHg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w51Y8h4MEei_GN7K0KRWHg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w51Y8x4MEei_GN7K0KRWHg" name="akademia" type="_w5roCB4MEei_GN7K0KRWHg" association="_w51Y8B4MEei_GN7K0KRWHg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w51Y9B4MEei_GN7K0KRWHg" name="kurtsoa" type="_w51Y9x4MEei_GN7K0KRWHg" association="_w51Y8B4MEei_GN7K0KRWHg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w51Y9R4MEei_GN7K0KRWHg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w51Y9h4MEei_GN7K0KRWHg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w51Y9x4MEei_GN7K0KRWHg" name="Kurtsoa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y-B4MEei_GN7K0KRWHg" name="kodea" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y-R4MEei_GN7K0KRWHg" name="izena" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y-h4MEei_GN7K0KRWHg" name="plazaKopMax" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y-x4MEei_GN7K0KRWHg" name="orduKop" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y_B4MEei_GN7K0KRWHg" name="iraupena" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y_R4MEei_GN7K0KRWHg" name="prezioa" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V89HMCH7EeiW2pnO2ratrg" name="ikasleKop" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ck99ACH7EeiW2pnO2ratrg" name="irabaziak"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eEWFECH7EeiW2pnO2ratrg" name="datuakErakutsi"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_w51Y_h4MEei_GN7K0KRWHg" name="Elkartea">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51Y_x4MEei_GN7K0KRWHg" name="izena" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZAB4MEei_GN7K0KRWHg" name="herria" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZAR4MEei_GN7K0KRWHg" name="helbidea" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZAh4MEei_GN7K0KRWHg" name="harremnetarakoDatuak" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_w51ZAx4MEei_GN7K0KRWHg" name="Korrikalaria">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZBB4MEei_GN7K0KRWHg" name="izena" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZBR4MEei_GN7K0KRWHg" name="abizena" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZBh4MEei_GN7K0KRWHg" name="nan" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZBx4MEei_GN7K0KRWHg" name="taila" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZCB4MEei_GN7K0KRWHg" name="federatuta" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZCR4MEei_GN7K0KRWHg" name="harremanetarakoDatuak" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_w51ZCh4MEei_GN7K0KRWHg" name="Elkartea">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZCx4MEei_GN7K0KRWHg" name="izena" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZDB4MEei_GN7K0KRWHg" name="herria" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZDR4MEei_GN7K0KRWHg" name="helbidea" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w51ZDh4MEei_GN7K0KRWHg" name="harremnetarakoDatuak" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+      </nestedClassifier>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_RNdRUB4NEei_GN7K0KRWHg" client="_w5rn8B4MEei_GN7K0KRWHg" supplier="_unwBkB4MEei_GN7K0KRWHg _w5rn-R4MEei_GN7K0KRWHg"/>
+</uml:Model>
