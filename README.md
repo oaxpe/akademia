@@ -1,1 +1,1 @@
-# akademia
+# akademia proiektua
