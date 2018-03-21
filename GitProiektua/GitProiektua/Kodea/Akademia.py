@@ -27,5 +27,9 @@ class Akademia:
         print("\tNIF-a: ", self.nif)
         
         print("testing branch-a aldatuta")
+<<<<<<< HEAD
         print("hola oihanae")
         print("Kaixoo, ni Eider naz.")
+=======
+        
+>>>>>>> branch 'testing' of https://github.com/oaxpe/akademia
